@@ -1,0 +1,591 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+    /* overflow: hidden; */
+}
+body{
+    width:100vw;
+    overflow-x: hidden;
+    
+}
+.container{
+   width:100vw;
+   position:relative;
+    
+
+}
+.contact{
+    width:100vw;
+    height: 100vh;
+    background-image:url( img.jpg);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    overflow: hidden;
+}
+#heading1{
+    color:white;
+}
+.details{
+    width:40vw;
+    height:50vh;
+    background:transparent;
+    backdrop-filter: blur(20px);
+    border: solid 2px rgba(255,255,255,0.2);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color:#fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.heading{
+    width:100%;
+    height:20%;
+    text-align: center;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#namesec{
+    width:100%;
+    height:20%;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+#contsec{
+    width:100%;
+    height:20%;
+    /* background-color: pink; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+#message{
+    width:100%;
+    height:20%;
+    /* background-color: blanchedalmond; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+     
+}
+#ok{
+    width:100%;
+    height:20%;
+    /* background-color: beige; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+#textarea1{
+    resize: none;
+}
+#firstname{
+    width:80%;
+    height:70%;
+    justify-self: center;
+    align-self: center;
+    border-radius:40px;
+    border:#ffffffbe;
+    background:transparent;
+    border: 2px solid rgba(255,255,255,0.2);
+    color:#fff;
+    padding:15px;
+    outline:none;
+}
+#secondname{
+    width:80%;
+    height:70%;
+    justify-self: center;
+    align-self: center;
+    border-radius:40px;
+    border:#ffffffbe;
+    background:transparent;
+    border: 2px solid rgba(255,255,255,0.2);
+    color:#fff;
+    padding:15px;
+    outline:none;
+}
+#emailid{
+    width:80%;
+    height:70%;
+    justify-self: center;
+    align-self: center;
+    border-radius:40px;
+    border:#ffffffbe;
+    background:transparent;
+    border: 2px solid rgba(255,255,255,0.2);
+    color:#fff;
+    padding:15px;
+    outline:none;
+}
+#phoneno{
+    width:80%;
+    height:70%;
+    justify-self: center;
+    align-self: center;
+    border-radius:40px;
+    border:#ffffffbe;
+    background:transparent;
+    border: 2px solid rgba(255,255,255,0.2);
+    color:#fff;
+    padding:15px;
+    outline:none;
+}
+#textarea1{
+    width:90%;
+    height:80%;
+    justify-self: center;
+    align-self: center;
+    border-radius:40px;
+    border:#ffffffbe;
+    background:transparent;
+    border: 2px solid rgba(255,255,255,0.2);
+    color:white;
+    padding:15px;
+    outline:none;
+}
+#hire{
+    width:60%;
+    height:60%;
+    justify-self: center;
+    align-self: center;
+    border-radius:40px;
+    border:#ffffffbe;
+    color:#333;
+    outline:none;
+    cursor:pointer;
+    font-size:1.2rem ;
+    font-weight: 500;
+    font-family:"Poppins",sans-serif; 
+}
+::placeholder{
+    color:#fff;
+    font-family:"Poppins",sans-serif; 
+    font-size: 1rem;
+}
+.home{
+    width:100vw;
+    height:100vh;
+     background-image:url( About\ \(1\).png);
+    overflow: hidden;
+    background-size: cover;
+}
+.nav{
+    width:100vw;
+    height:10vh;
+    /* background-color: #fff; */
+    display:flex;
+    align-items:end;
+    justify-content: space-between;
+    position:fixed;
+    border-bottom: solid #FF10F0 1px;
+    border-bottom-left-radius:10px ;
+    background-color: rgba(63, 31, 96, 0.97);
+}
+.logo{
+    width:20%;
+    height:70%;
+    display:flex;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: end;
+    font-size: 1.4rem;
+   color: #FF10F0;
+    
+}
+.navbar{
+    width: 45%;
+    height: 70%;
+    display:flex;
+    justify-content:  space-around;
+    /* background-color: pink; */
+}
+.navelement{
+    width:20%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 1.1rem;
+    color:#FF10F0;
+    
+}
+a{
+    color:#FF10F0;
+    transition: all 0.4s linear 0s;
+
+}
+/* .navelement:hover{
+    text-decoration: underline;
+    color:white;
+} */
+a:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+.bottom{
+    height:90vh;
+    width:100vw;
+    /* background-color: aqua; */
+    display:flex;
+     
+}
+ .descrption{
+    width:50%;
+    height:100%;
+    /* background-color: antiquewhite; */
+    display:flex;
+    justify-content:center;
+    align-items: end;
+ }
+ .img{
+    width:50%;
+    height:100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content:center;
+  
+ }
+.descrp{
+    width:60%;
+    height:70%;
+    /* background-color: yellowgreen; */
+}
+#firstline{
+    width:100%;
+    height:25%;
+    /* background-color: bisque; */
+    font-size: 1.6rem;
+    display:flex;
+    align-items:end;
+    color: #FF10F0;
+}
+#secondline{
+    width:100%;
+    height:15%;
+    /* background-color:red; */
+    display:flex;
+    align-items:center;
+    color:#fff;
+    font-size:1.3rem
+}
+#para1{
+    width:100%;
+    height:20%;
+    /* background-color:white; */
+    display:flex;
+    color:#FF10F0;
+    align-items: center;
+    
+}
+#text{
+    /* background-color: #cc2a2a; */
+    width:100%;
+    height:20%; 
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+} 
+#btn1{
+    width:60%;
+    height:45%;
+    justify-self:start;
+    border-radius: 8px;
+     cursor: pointer;
+     font-size: 1rem;
+     letter-spacing: 1px;
+     font-weight: 500;
+     color:#081b29;
+     transition: all 0.8 linear;
+     border:none;
+}
+#btn2{
+    width:55%;
+    height:45%;
+    justify-self: start;
+    outline: hidden;
+    border-radius:8px;
+    cursor: pointer;
+    color:#FF10F0;
+    border:#FF10F0 solid;
+    background-color:transparent;
+    font-size: 1rem;
+     transition: all 0.8 linear;
+}
+#btn2:hover{
+    background-color: #FF10F0;
+    color:#081b29;
+}
+#btn1:hover{
+    background-color: transparent;
+    color:#FF10F0;
+     border:#FF10F0 solid;
+}
+.project{
+    height: 100vh;
+    width:100vw;
+    display:flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    background-image: url(About.png);
+    background-size: cover;
+}
+.projectbox{
+width:79%;
+height:78%;
+ 
+padding:1rem;
+ 
+}
+.projectitem{
+    width:25%;
+    height:90%;
+     
+     background-color: #fff;
+    
+     border-radius: 40px;
+     box-shadow:20px 20px 60px   #ff10ef2f ,inset -20px -20px 60px   #ff10ef2f ;
+     transition: all 0.3s linear 1ms;
+      /* border:solid 3px  #FF10F0; */
+     cursor:pointer;
+     display: flex;
+     flex-direction: column;
+     overflow: hidden;
+
+    /* padding:0.4rem; */
+}
+.projectbox1{
+    width:100%;
+    height:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* border:solid black; */
+    justify-content: space-between;
+
+}
+.projectbox2{
+    width:100%;
+    height:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    /* border:solid black; */
+    justify-content:space-between;
+}
+/* #p1{
+  background-color: yellow;
+
+}
+#p2{
+    background-color: rgb(68, 0, 255);
+    
+  }
+  #p3{
+    background-color: rgb(255, 38, 0);
+    
+  }
+  #p4{
+    background-color: rgb(127, 137, 197);
+    
+  }
+  #p5{
+    background-color: rgb(0, 255, 94);
+    
+  } */
+ 
+.projectitem:hover{
+    transform: scale(1.03);
+    /* border:  	#66007e solid 2px; */
+
+}
+.imagep{
+width:100%;
+height:60%;
+border-bottom: solid 4px 	#66007e;
+
+}
+.parap{
+    width:100%;
+    height:25%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    line-height: -2px;
+    padding:0.5rem;
+}
+.butonp{
+  width:100%;
+  height:12%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+ 
+}
+#b1{
+   cursor: pointer;
+    width:50%;
+    height:90%;
+    border:solid 2px  #FF10F0;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin:10px;
+    color:#081b29;
+    transition: all  0.3s linear 1ms;
+    background-color: #ff10efb9;
+    font-weight: 500;
+}
+#b1:hover{
+    border:solid 2px  #FF10F0;
+    color:#FF10F0;
+    background-color: transparent;
+
+}
+#imgp1{
+    background-image: url(116376-2560x1440-desktop-hd-netflix-background-photo.jpg);
+    background-size: cover;
+}
+#imgp2{
+    background-image: url(wp4682697-prime-video-wallpapers.jpg);
+    background-size: cover;
+}
+#imgp3{
+    background-image: url(1259983-3840x2160-desktop-4k-spotify-background-image.jpg);
+    background-size: cover;
+}
+#imgp4{
+    background-image: url( 1256608-3840x2160-desktop-4k-youtube-background.jpg);
+    background-size: cover;
+}
+#imgp5{
+    background-image: url( pxfuel\ \(2\).jpg);
+    background-size: cover;
+}#imgp6{
+    background-image: url(BoAt-logo.jpg);
+    background-size: cover;
+}
+.skill{
+    width: 100vw;
+    height:100vh;
+    background-image: url(About.png);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.skillbox{
+    width:80%;
+    height: 80%;
+    /* background-color: #fff; */
+    padding: 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.grid1{
+    width:100%;
+    height:38%;
+    margin:0.8rem 0;
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns:  1.38fr 1fr;
+    column-gap: 2rem;
+}
+.grid2{
+    width:100%;
+    height:28%;
+    margin:0.8rem 0;
+    display:grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2rem;
+}
+.grid3{
+    width:100%;
+    height:30%;
+    margin:0.8rem 0;
+    display:grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns:  1fr 1.38fr;
+    column-gap: 2rem;
+}
+.sb{
+    background-color: #c1c1c1;
+    
+    border-radius: 25px;
+    box-shadow:20px 20px 60px   #ff10ef2f ,inset -20px -20px 60px   #ff10ef2f ;
+    transition: all 0.3s linear 1ms;
+     /* border:solid 3px  #FF10F0; */
+    cursor:pointer;
+    overflow:hidden;
+    display:flex;
+    
+ }
+.sb:hover{
+    transform: scale(1.03);
+    border:  #66007e solid 2px;
+}
+.ski{
+    width:70%;
+    height:100%;
+    
+}
+.ski{
+    /* background-image: url();
+    background-size: cover; */
+    border-right: solid 4px #66007e;
+}
+.skid{
+    width:30%;
+    height:100%;
+    /* background-color: pink; */
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    padding:10px;
+
+}
+#ski1{
+    background-image: url(654b5c9306951606498cbdc2_bqbrgvimbo-p-800.png);
+    background-size: cover; 
+}
+/* #sb1{
+    background-image: url(654b5c9306951606498cbdc2_bqbrgvimbo-p-800.png);
+    background-size: cover;
+} */
+#ski2{
+    background-image: url(Design-tools-1-1-1.jpg);
+    background-size: cover; 
+}
+#ski7{
+    background-image: url( 7127986.jpg);
+    background-size: cover; 
+}#ski6{
+    background-image: url( 240_F_259158655_LSr0e62xovd1EfhvXvFyhhdr9XdiDOYO.jpg);
+    background-size: cover; 
+}
+#ski4{
+    background-image: url(2842680.jpg);
+    background-size: cover; 
+}
+#ski5{
+    background-image: url( guy-animator-creation-project-process-vector-illustration-male-motion-designer-working-computer-freelancer-graphic-creator-workplace-back-view-man-learn-online-animation-editor-course_198278-13287.avif);
+    background-size: cover; 
+}
+#ski3{
+    background-image: url(web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.avif);
+    background-size: cover; 
+}
